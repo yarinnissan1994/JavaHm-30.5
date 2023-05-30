@@ -1,3 +1,5 @@
+package animal;
+
 public class AnimalFactory {
     public Animal createAnimal(String animalType) {
         if (animalType.equalsIgnoreCase("dog")) {
